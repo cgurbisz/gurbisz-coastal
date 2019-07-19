@@ -59,10 +59,10 @@ phone = "(240) 895-4473"
 address = "Kent Hall 308"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+office_hours = "Fall 2019: Fridays 10:00-12:00 and 2:00-3:00"
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+appointment_url = "https://calendar.google.com/calendar/selfsched?sstoken=UURwV01ZdVpZYU5zfGRlZmF1bHR8YTI5ZjlhMDc2YWVhYzIwNjAyYmI0MTBkNmI5NmY0MzY"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
