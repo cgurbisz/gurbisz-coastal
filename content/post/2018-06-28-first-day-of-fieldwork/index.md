@@ -18,7 +18,7 @@ image:
   caption: 'Undergraduate REU student, Margaret Martinez, and Cassie Gurbisz collect SAV samples'
   focal_point: ''
   preview_only: false
-projects: []
+projects: [sav-nutrient-sediment-sink]
 gallery_item:
 - album: gallery
   caption: Underwater view of the Susquehanna Flats SAV bed
