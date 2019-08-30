@@ -10,7 +10,6 @@ tags:
   - fieldwork
   - Conowingo
   - flood
-  - press
 subtitle: ''
 summary: 'We completed our summer sampling despite all the rain'
 authors: [pi]
