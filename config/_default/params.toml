@@ -71,7 +71,8 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = []
 coordinates = {latitude = "38.187934", longitude = "-76.433539"}
-
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-us"
 
 ############################
 ## Plugins                ##
@@ -161,8 +162,6 @@ link_authors = true
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
   
-  # Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-us"
     
 ############################
 ## Maps
