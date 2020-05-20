@@ -59,13 +59,13 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "cbgurbisz@smcm.edu"
 phone = "(240) 895-4473"
-address = address = {street = "47645 College Drive", city = "St. Mary's City", region = "MD", postcode = "20686", country = "United States", country_code = "US"}
+address = {street = "47645 College Drive", city = "St. Mary's City", region = "MD", postcode = "20686", country = "United States", country_code = "US"}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ["Wednesday 1:00 to 3:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendar.google.com/calendar/selfsched?sstoken=UURwV01ZdVpZYU5zfGRlZmF1bHR8YTI5ZjlhMDc2YWVhYzIwNjAyYmI0MTBkNmI5NmY0MzY"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -90,8 +90,8 @@ plugins_js  = []
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
 
-# Align the main menu to the right of the page? (true/false)
-menu_align_right = false
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = false
@@ -105,6 +105,9 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = false
+
+# Link authors to their profile page? (true/false)
+link_authors = true
 
 # Configuration of publication pages.
 [publications]
@@ -157,6 +160,9 @@ sharing = false
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+  
+  # Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-us"
     
 ############################
 ## Maps
@@ -179,3 +185,16 @@ sharing = false
   engine = 2
   api_key = ""
   zoom = 15
+  
+  # Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
+  
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = "UA-120167899-2"
+  google_tag_manager = ""
