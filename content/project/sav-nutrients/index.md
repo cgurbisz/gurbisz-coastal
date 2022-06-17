@@ -29,7 +29,7 @@ tags:
 title: "SAV recovery and estuarine nutrient cycling"
 ---
 
-{{< figure src="featured.JPG" alt="wild celery" caption="" >}}
+{{< figure src="featured.jpg" alt="wild celery" caption="" >}}
 
 Although nutrient load reductions have been a primary management strategy for Chesapeake Bay restoration, internal ecological processes, such as seasonal nutrient retention in submersed aquatic vegetation (SAV) beds, may also play an important, complementary role. For example, if SAV increasingly retain nitrogen and phosphorus as they recover, they could potentially limit regional phytoplankton production, thereby decreasing the magnitude of seasonal bottom-water hypoxia. However, we lack sufficient details about the factors controlling the magnitude of an important mechanism of SAV-mediated nutrient sequestration–particulate nutrient trapping–to make inferences about its importance relative to total loads to the system.
 
