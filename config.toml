@@ -1,4 +1,4 @@
-baseURL = "https://gurbisz-coastal-ecology.netlify.com"
+baseURL = "https://gurbisz-coastal-ecology.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Gurbisz Coastal Ecosystem Ecology Lab"
